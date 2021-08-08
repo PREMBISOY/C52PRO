@@ -1,0 +1,83 @@
+
+
+.item
+{
+    
+    border-radius: 20px;
+    background-color: white;
+
+    width: 310px;
+    font-family: fantasy;
+
+}
+
+.item p
+{
+    font-size: 12px;
+    text-align: center;
+    margin-right: 100px;
+}
+.item img
+{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+
+.menu
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+.menu p,a
+{
+    color:white;
+    margin-top: 3px;
+font-family: sans-serif;
+}
+
+.origami
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.bodyImage p
+{
+    font-size: 30px;
+    
+}
+.bodyImage
+{
+    background-image: url('images/main2.jpeg');
+    font-family: fantasy;
+    text-align: center;
+    color:white;
+    padding: 100px;
+}
+.menu a
+{text-decoration: none;}
+
+.item:hover:hover
+{
+    transform:scale(1.09)
+}
+.item
+{
+ position : relative;
+
+
+}
+.item:hover h3
+{
+    opacity: 1;
+
+}
+.item h3
+{
+    opacity:0;
+}
